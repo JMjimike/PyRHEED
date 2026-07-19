@@ -30,8 +30,8 @@ Language links: [English](TUTORIAL_en.md) | [中文](TUTORIAL_zh.md)
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 
 # 克隆并安装依赖
-git clone https://zivgitlab.uni-muenster.de/ag-salinga/pyrheed.git
-cd pyrheed
+git clone https://github.com/JMjimike/PyRHEED.git
+cd PyRHEED
 uv sync
 ```
 
