@@ -1,5 +1,7 @@
 # PyRHEED 详细使用教程与工作流
 
+Language links: [English](TUTORIAL_en.md) | [中文](TUTORIAL_zh.md)
+
 本文档介绍 PyRHEED 的界面布局、典型分析流程、批处理场景配置以及理论模拟模块的使用方法。
 
 ---

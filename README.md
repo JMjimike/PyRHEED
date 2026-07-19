@@ -26,7 +26,7 @@ This repository is derived from [yux1991/PyRHEED](https://github.com/yux1991/PyR
 | Category | Changes |
 |----------|---------|
 | **Bug fix** | NumPy 2.x compatibility: replace removed `ndarray.ptp()` with `np.ptp()`, fixing TAPD “Add Structure” crashes |
-| **Docs** | Chinese README and detailed workflow tutorial [`TUTORIAL_zh.md`](TUTORIAL_zh.md) |
+| **Docs** | Bilingual README; tutorials [`TUTORIAL_en.md`](TUTORIAL_en.md) / [`TUTORIAL_zh.md`](TUTORIAL_zh.md); bilingual CIF sample READMEs |
 | **Tooling** | Dependency management with [uv](https://docs.astral.sh/uv/) (`pyproject.toml` / `uv.lock`) |
 | **CIF library** | [`cif_samples/`](cif_samples/): STO substrates, REBCO O₇/O₆, DyBCO growth intermediates (211/124/143/385, etc.) |
 | **XRD extensions** | Four-circle geometry, Ewald sphere, continuous scans (`xrd_*.py`, `ewald.py`, `four_circle_geometry.py`, …) and tests under `scripts/` |
@@ -70,7 +70,7 @@ uv run src/main.py
 
 1. **Load data** — Open RAW or common image formats via the file dialog. Images are converted to grayscale. Prefer TIFF/PNG/RAW over JPEG for higher dynamic range.
 2. **Analysis** — Choose modules by research goal. Pattern / structure-factor simulation does **not** require experimental images.
-3. **Run Scenario** — Load `default_scenario.ini` or a custom scenario and run to generate a full result set. See the [Chinese tutorial](TUTORIAL_zh.md) for workflows.
+3. **Run Scenario** — Load `default_scenario.ini` or a custom scenario and run to generate a full result set. See the [English](TUTORIAL_en.md) / [Chinese](TUTORIAL_zh.md) tutorials for workflows.
 
 ### Modules
 
@@ -142,9 +142,10 @@ uv run src/main.py
 
 ### Tutorial
 
-A detailed Chinese guide (UI, workflows, scenarios, FAQ) is available here:
+Detailed guides (UI, workflows, scenarios, FAQ):
 
-**[→ TUTORIAL_zh.md](TUTORIAL_zh.md)**
+- **[→ English tutorial (TUTORIAL_en.md)](TUTORIAL_en.md)**
+- **[→ 中文教程 (TUTORIAL_zh.md)](TUTORIAL_zh.md)**
 
 ### Contact
 
@@ -175,7 +176,7 @@ This fork: [https://github.com/JMjimike/PyRHEED](https://github.com/JMjimike/PyR
 | 类别 | 改动说明 |
 |------|----------|
 | **Bug 修复** | NumPy 2.x 兼容：将已移除的 `ndarray.ptp()` 改为 `np.ptp()`，修复 TAPD「Add Structure」崩溃 |
-| **文档** | 中文 README、[`TUTORIAL_zh.md`](TUTORIAL_zh.md) 详细教程与工作流 |
+| **文档** | 中英双语 README；教程 [`TUTORIAL_en.md`](TUTORIAL_en.md) / [`TUTORIAL_zh.md`](TUTORIAL_zh.md)；CIF 样品库双语说明 |
 | **工程化** | 使用 [uv](https://docs.astral.sh/uv/) 管理依赖（`pyproject.toml` / `uv.lock`） |
 | **CIF 样品库** | [`cif_samples/`](cif_samples/)：STO 衬底、REBCO O₇/O₆、DyBCO 生长中间相（211/124/143/385 等） |
 | **XRD 扩展** | 新增四圆几何、Ewald、连续扫描等模块（`xrd_*.py`、`ewald.py`、`four_circle_geometry.py` 等）及 `scripts/` 测试脚本 |
@@ -219,7 +220,7 @@ uv run src/main.py
 
 1. **加载数据** — 通过「打开文件」对话框加载 RAW 或常见图像格式；自动转灰度。高动态范围请用 TIFF / PNG / RAW，避免 JPEG。
 2. **数据分析** — 按研究目的选用模块；图样/结构因子模拟**不依赖**实验图像。
-3. **场景批处理** — 加载 `default_scenario.ini` 或自定义场景后运行。详见 [详细使用教程与工作流](TUTORIAL_zh.md)。
+3. **场景批处理** — 加载 `default_scenario.ini` 或自定义场景后运行。详见 [中文教程](TUTORIAL_zh.md) / [English tutorial](TUTORIAL_en.md)。
 
 ### 模块说明
 
@@ -259,7 +260,8 @@ uv run src/main.py
 
 完整的界面说明、典型工作流、场景配置与常见问题，请参阅：
 
-**[→ 详细使用教程与工作流（TUTORIAL_zh.md）](TUTORIAL_zh.md)**
+- **[→ 中文教程（TUTORIAL_zh.md）](TUTORIAL_zh.md)**
+- **[→ English tutorial (TUTORIAL_en.md)](TUTORIAL_en.md)**
 
 ### 联系方式
 
